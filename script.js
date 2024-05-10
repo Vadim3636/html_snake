@@ -2,6 +2,7 @@ var snakeCanvas = document.querySelector("canvas#snake");
 var snakeCtx = snakeCanvas.getContext("2d");
 
 if (localStorage['maxScore'] == undefined || typeof localStorage['maxScore'] !== 'number') {
+    if (localStorage['maxScore'] == undefined) localStorage['maxScore'] = "0";
     localStorage.setItem('maxScore', ''+localStorage['maxScore'].toString());
 }
 
