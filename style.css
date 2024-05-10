@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    height: 100vh;
+    background: #066;
+
+    align-items: center;
+}
+
+canvas#snake{
+    border: 5px solid #000;
+    width: 50vmin;
+    height: 50vmin;
+}
+
+h1{
+    color: #fff;
+
+    width: 2pt;
+    font-size: 64pt;
+
+	-webkit-text-stroke: 3px #000;
+}
+
+alert{
+    top: 0px;
+}
+
+#max-score{
+    position: fixed;
+    width: 100vw;
+    bottom: 0px;
+}
